@@ -1,0 +1,48 @@
+#contact-content {
+    clear: both;
+}
+
+nav li:hover .rect {
+    width: 15px
+}
+
+.sub_page_content {
+    padding: 50px 0 0 50px
+}
+
+#login_men {
+    position: relative;
+}
+
+.collapse_menu ul {
+    display: none;
+    background-color: rgba(12, 12, 12, 1);
+    width: 60%;
+    position: absolute;
+    z-index: 10;
+    left: 50%;
+    top: 0;
+}
+
+.collapse_menu ul li {
+    padding-left: 10px;
+    transition: .5s;
+}
+
+
+.collapse_menu ul li:hover {
+    background-color: black;
+    padding-left: 25px;
+}
+
+.sidebar-navigation li {
+    position: relative;
+}
+
+.main_page_news {
+    margin-bottom: 50px;
+}
+
+.news_photos img {
+    margin-bottom: 50px;
+}
